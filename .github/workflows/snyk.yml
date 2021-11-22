@@ -13,7 +13,7 @@ jobs:
       continue-on-error: true
       run: snyk test --all-projects
       env:
-        SNYK_TOKEN: 
+        SNYK_TOKEN: 8949280a-ce16-45ed-ba57-e20a3bc5117b
     - name: Snyk Monitor
       run: snyk monitor --all-projects
         #SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
